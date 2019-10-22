@@ -1,0 +1,33 @@
+{
+  "name": "node_and_browser_js_playground",
+  "version": "1.0.0",
+  "description": "",
+  "private": true,
+  "scripts": {
+    "dev:browser": "parcel ./browser/index.html",
+    "dev:node": "nodemon --exec babel-node ./node/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ryanboris/node_and_browser_js_playground.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ryanboris/node_and_browser_js_playground/issues"
+  },
+  "homepage": "https://github.com/ryanboris/node_and_browser_js_playground#readme",
+  "dependencies": {},
+  "devDependencies": {
+    "@babel/cli": "^7.6.4",
+    "@babel/core": "^7.6.4",
+    "@babel/node": "^7.6.3",
+    "@babel/preset-env": "^7.6.3",
+    "eslint": "^6.5.1",
+    "eslint-config-prettier": "^6.4.0",
+    "eslint-plugin-prettier": "^3.1.1",
+    "nodemon": "^1.19.4",
+    "prettier": "^1.18.2"
+  }
+}
