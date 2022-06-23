@@ -19,7 +19,7 @@
   },
   "homepage": "https://github.com/ryanboris/node_and_browser_js_playground#readme",
   "dependencies": {
-    "jsdom": "^15.2.1"
+    "jsdom": "^16.5.0"
   },
   "devDependencies": {
     "@babel/cli": "^7.7.4",
